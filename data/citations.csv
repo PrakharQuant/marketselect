@@ -10,3 +10,4 @@ market_size_musd,1553214,Public electric vehicle charging revenue in Iceland 201
 market_size_musd,1553215,Public electric vehicle charging revenue in Denmark 2016-2029,million EUR,2029,https://www.statista.com/statistics/1553215/,Converted at 1 EUR = 1.08 USD.
 competition_index,1312911,Light-duty electric vehicles per charging point in 2024 by country,EVs per point,2024,https://www.statista.com/statistics/1312911/,Source IEA. Index is the value divided by 40.6. Missing countries use the file median 20.5.
 charger_count,571564,Publicly available EVSE chargers in 2024 by country and type,chargers,2024,https://www.statista.com/statistics/571564/,Source IEA. Not used in the objective. Stored for citation.
+spend_bounds,,Entry and spend caps,million USD,,,Assumption: min is 2% of revenue floored at 2 and capped at 40; max is 12% capped at 80. Not a Statista field.

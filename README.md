@@ -43,3 +43,5 @@ marketselect/optimize.py  MIP, Gurobi then CBC
 data/                   illustrative panel and citation template
 render.yaml             Render web service
 ```
+
+Spend bounds are assumptions. Minimum entry is 2% of forecast revenue, floored at $2M and capped at $40M. Maximum spend is 12% of forecast revenue, capped at $80M. That cap is what lets a $180M budget enter Germany without assigning it the whole portfolio.
