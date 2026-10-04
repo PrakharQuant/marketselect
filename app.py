@@ -7,12 +7,12 @@ from marketselect.optimize import pareto, solve
 
 st.set_page_config(page_title="MarketSelect", layout="wide")
 st.title("MarketSelect")
-st.caption("Which markets to enter, and how to split a fixed budget. Demo panel is illustrative; swap in a Statista export without changing the model.")
+st.caption("Which markets to enter, and how to split a fixed budget. The bundled panel is the nine-country Statista revenue set.")
 
 uploaded = st.sidebar.file_uploader("Statista export or cleaned CSV", type=["csv", "xls", "xlsx"])
 if uploaded is None:
     markets = load_demo()
-    st.sidebar.info("Using the bundled illustrative EV-charging panel.")
+    st.sidebar.info("Using the bundled Statista panel. Upload a CSV only to replace it.")
 else:
     markets = load_statista_xls(uploaded)
 
