@@ -1,0 +1,19 @@
+country,region,market_size_musd,cagr,competition_index,fixed_cost_musd,min_spend_musd,max_spend_musd,risk_weight,source_note
+Germany,Europe,920,0.11,0.72,18,12,80,0.35,illustrative demo — replace via ingest
+France,Europe,740,0.12,0.68,16,10,70,0.38,illustrative demo — replace via ingest
+United Kingdom,Europe,810,0.10,0.75,17,12,75,0.40,illustrative demo — replace via ingest
+Netherlands,Europe,280,0.13,0.55,8,6,35,0.32,illustrative demo — replace via ingest
+Norway,Europe,190,0.08,0.40,7,5,28,0.22,illustrative demo — replace via ingest
+Sweden,Europe,210,0.11,0.48,7,5,30,0.28,illustrative demo — replace via ingest
+Spain,Europe,430,0.16,0.60,11,8,50,0.45,illustrative demo — replace via ingest
+Italy,Europe,460,0.14,0.66,12,8,52,0.48,illustrative demo — replace via ingest
+Poland,Europe,240,0.18,0.50,8,6,36,0.52,illustrative demo — replace via ingest
+United States,North America,3100,0.14,0.80,40,25,180,0.42,illustrative demo — replace via ingest
+Canada,North America,390,0.13,0.58,10,8,48,0.36,illustrative demo — replace via ingest
+India,Asia,680,0.24,0.62,14,10,70,0.70,illustrative demo — replace via ingest
+China,Asia,2800,0.15,0.88,35,20,160,0.55,illustrative demo — replace via ingest
+Japan,Asia,540,0.09,0.70,13,10,55,0.30,illustrative demo — replace via ingest
+South Korea,Asia,310,0.12,0.64,9,7,40,0.34,illustrative demo — replace via ingest
+Australia,Oceania,260,0.15,0.52,9,6,36,0.40,illustrative demo — replace via ingest
+Brazil,Latin America,350,0.17,0.58,10,8,42,0.62,illustrative demo — replace via ingest
+UAE,Middle East,180,0.19,0.45,8,5,30,0.44,illustrative demo — replace via ingest
