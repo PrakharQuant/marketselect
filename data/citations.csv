@@ -1,0 +1,4 @@
+field,statista_id,statistic_title,unit,year,url,notes
+market_size_musd,,,Public EV charging market size,USD million,,Export XLS from Statista Professional and map with ingest.py
+cagr,,,Public EV charging market CAGR,fraction,,Use the forecast CAGR, not a single-year change
+competition_index,,,Charging-point density or competitor count,0-1 index,,Normalize the raw series before solving
