@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def test_demo_loads():
     frame = load_demo()
-    assert len(frame) == 18
+    assert len(frame) == 9
     assert frame["country"].is_unique
 
 

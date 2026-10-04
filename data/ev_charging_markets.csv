@@ -1,19 +1,10 @@
 country,region,market_size_musd,cagr,competition_index,fixed_cost_musd,min_spend_musd,max_spend_musd,risk_weight,source_note
-Germany,Europe,920,0.11,0.72,18,12,80,0.35,illustrative demo — replace via ingest
-France,Europe,740,0.12,0.68,16,10,70,0.38,illustrative demo — replace via ingest
-United Kingdom,Europe,810,0.10,0.75,17,12,75,0.40,illustrative demo — replace via ingest
-Netherlands,Europe,280,0.13,0.55,8,6,35,0.32,illustrative demo — replace via ingest
-Norway,Europe,190,0.08,0.40,7,5,28,0.22,illustrative demo — replace via ingest
-Sweden,Europe,210,0.11,0.48,7,5,30,0.28,illustrative demo — replace via ingest
-Spain,Europe,430,0.16,0.60,11,8,50,0.45,illustrative demo — replace via ingest
-Italy,Europe,460,0.14,0.66,12,8,52,0.48,illustrative demo — replace via ingest
-Poland,Europe,240,0.18,0.50,8,6,36,0.52,illustrative demo — replace via ingest
-United States,North America,3100,0.14,0.80,40,25,180,0.42,illustrative demo — replace via ingest
-Canada,North America,390,0.13,0.58,10,8,48,0.36,illustrative demo — replace via ingest
-India,Asia,680,0.24,0.62,14,10,70,0.70,illustrative demo — replace via ingest
-China,Asia,2800,0.15,0.88,35,20,160,0.55,illustrative demo — replace via ingest
-Japan,Asia,540,0.09,0.70,13,10,55,0.30,illustrative demo — replace via ingest
-South Korea,Asia,310,0.12,0.64,9,7,40,0.34,illustrative demo — replace via ingest
-Australia,Oceania,260,0.15,0.52,9,6,36,0.40,illustrative demo — replace via ingest
-Brazil,Latin America,350,0.17,0.58,10,8,42,0.62,illustrative demo — replace via ingest
-UAE,Middle East,180,0.19,0.45,8,5,30,0.44,illustrative demo — replace via ingest
+United Kingdom,Europe,811.657,0.254197538609248,0.623,16.23314,64.93256,284.07995,0.58651804314696,"IEA via Statista 1312911, 2024, divided by 40.6"
+Norway,Europe,324.3,0.198546637333201,0.791,6.486,25.944,113.505,0.654657942200411,"IEA via Statista 1312911, 2024, divided by 40.6"
+Spain,Europe,113.94,0.409575564718173,0.505,2.2788,9.1152,39.879,0.68406946017365,"not in statistic 1312911; median of that file, 20.5/40.6"
+Finland,Europe,93.258,0.352294476664658,0.505,1.86516,7.46064,32.6403,0.686961117402794,"not in statistic 1312911; median of that file, 20.5/40.6"
+Germany,Europe,2860.92,0.337193047356412,0.505,57.2184,228.8736,1001.322,0.3,"IEA via Statista 1312911, 2024, divided by 40.6"
+Estonia,Europe,7.70796,0.589464067941792,0.505,0.25,1.0,2.697786,0.698922310305776,"not in statistic 1312911; median of that file, 20.5/40.6"
+Latvia,Europe,6.9336,0.59453405182357,0.505,0.25,1.0,2.42676,0.699030577576444,"not in statistic 1312911; median of that file, 20.5/40.6"
+Iceland,Europe,21.438,0.252969571779648,0.505,0.42876,1.71504,7.5033,0.697002642506606,"not in statistic 1312911; median of that file, 20.5/40.6"
+Denmark,Europe,254.988,0.310637984773728,0.505,5.09976,20.39904,89.2458,0.664348810872027,"not in statistic 1312911; median of that file, 20.5/40.6"

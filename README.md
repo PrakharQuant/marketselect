@@ -1,6 +1,6 @@
 # MarketSelect
 
-Decide which markets to enter and how to split a fixed budget. The decision is a mixed-integer program: Gurobi when a license is present, CBC otherwise. The bundled panel is an illustrative EV-charging set so the repo runs immediately. Drop in a Statista Professional XLS export to replace it.
+Decide which markets to enter and how to split a fixed budget. The decision is a mixed-integer program: Gurobi when a license is present, CBC otherwise. The bundled panel is built from Statista Mobility Market Insights revenue forecasts for nine European countries, plus an IEA EVs-per-charger series. Original workbooks are in data/. FX rates and spend bounds are assumptions, documented in data/citations.csv.
 
 Live app target: Render (`render.yaml`). `gurobipy` is optional and is not in `requirements.txt`, so a free Render build succeeds. Install it locally (`pip install gurobipy`) or set `GRB_WLSACCESSID`, `GRB_WLSSECRET`, and `GRB_LICENSEID` on a host that has Gurobi. Without a license, the app solves with CBC.
 

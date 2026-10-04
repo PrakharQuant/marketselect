@@ -1,4 +1,12 @@
 field,statista_id,statistic_title,unit,year,url,notes
-market_size_musd,,,Public EV charging market size,USD million,,Export XLS from Statista Professional and map with ingest.py
-cagr,,,Public EV charging market CAGR,fraction,,Use the forecast CAGR, not a single-year change
-competition_index,,,Charging-point density or competitor count,0-1 index,,Normalize the raw series before solving
+market_size_musd,1411503,Projected electric vehicle charging station revenue in the United Kingdom 2016-2029,million GBP,2029,https://www.statista.com/statistics/1411503/,Converted at 1 GBP = 1.27 USD. Assumption, not a Statista rate.
+market_size_musd,1413409,Projected electric vehicle charging station revenue in Norway 2016-2029,million USD,2029,https://www.statista.com/statistics/1413409/,Already in USD.
+market_size_musd,1441469,Public charging station revenue in Spain 2016-2028,million EUR,2028,https://www.statista.com/statistics/1441469/,Converted at 1 EUR = 1.08 USD. CAGR uses 2022-2028.
+market_size_musd,1477322,Public electric vehicle charging station revenue in Finland 2016-2029,million EUR,2029,https://www.statista.com/statistics/1477322/,Converted at 1 EUR = 1.08 USD.
+market_size_musd,1484167,Public electric vehicle charging station revenue in Germany 2016-2028,million EUR,2028,https://www.statista.com/statistics/1484167/,Converted at 1 EUR = 1.08 USD. CAGR uses 2023-2028.
+market_size_musd,1499736,Public electric vehicle charging station revenue in Estonia 2016-2029,thousand EUR,2029,https://www.statista.com/statistics/1499736/,Divided by 1000 then converted at 1 EUR = 1.08 USD.
+market_size_musd,1499740,Public electric vehicle charging station revenue in Latvia 2016-2029,thousand EUR,2029,https://www.statista.com/statistics/1499740/,Divided by 1000 then converted at 1 EUR = 1.08 USD.
+market_size_musd,1553214,Public electric vehicle charging revenue in Iceland 2016-2029,million EUR,2029,https://www.statista.com/statistics/1553214/,Converted at 1 EUR = 1.08 USD.
+market_size_musd,1553215,Public electric vehicle charging revenue in Denmark 2016-2029,million EUR,2029,https://www.statista.com/statistics/1553215/,Converted at 1 EUR = 1.08 USD.
+competition_index,1312911,Light-duty electric vehicles per charging point in 2024 by country,EVs per point,2024,https://www.statista.com/statistics/1312911/,Source IEA. Index is the value divided by 40.6. Missing countries use the file median 20.5.
+charger_count,571564,Publicly available EVSE chargers in 2024 by country and type,chargers,2024,https://www.statista.com/statistics/571564/,Source IEA. Not used in the objective. Stored for citation.
