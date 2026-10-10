@@ -15,11 +15,11 @@ st.markdown(
     """
     <style>
     .block-container {padding-top: 1.4rem; padding-bottom: 2rem;}
-    .hero {border: 1px solid #e6e6e6; border-radius: 12px; padding: 1.1rem 1.25rem; background: #f8fafc; margin-bottom: 1rem;}
-    .hero h1 {margin: 0 0 0.35rem 0; font-size: 1.8rem;}
-    .hero p {margin: 0.25rem 0; color: #334155; line-height: 1.45;}
-    .footer {margin-top: 2rem; padding-top: 0.8rem; border-top: 1px solid #e6e6e6; color: #475569; font-size: 0.92rem;}
-    .footer a {color: #0f172a; text-decoration: none; margin-right: 1rem;}
+    .hero {border: 1px solid #334155; border-radius: 12px; padding: 1.1rem 1.25rem; background: #1e293b; margin-bottom: 1rem;}
+    .hero h1 {margin: 0 0 0.35rem 0; font-size: 1.8rem; color: #f8fafc;}
+    .hero p {margin: 0.25rem 0; color: #cbd5e1; line-height: 1.45;}
+    .footer {margin-top: 2rem; padding-top: 0.8rem; border-top: 1px solid #334155; color: #94a3b8; font-size: 0.92rem;}
+    .footer a {color: #e2e8f0; text-decoration: none; margin-right: 1rem;}
     .footer a:hover {text-decoration: underline;}
     </style>
     """,
@@ -90,17 +90,15 @@ st.line_chart(curve.set_index("risk_limit")["objective_musd"])
 st.caption(f"Status: {result.status}. The chart shows how the expected contribution changes as the risk limit is relaxed.")
 
 with st.expander("How the decision is made"):
+    st.markdown("The model maximizes expected contribution:")
+    st.latex(r"\max \sum_i (r_i x_i - f_i y_i)")
+    st.markdown("subject to a budget, a maximum number of markets, a risk limit, and a spend range if a market is entered:")
+    st.latex(r"\sum_i x_i \le B, \quad \sum_i y_i \le K, \quad \sum_i \rho_i x_i \le R, \quad L_i y_i \le x_i \le U_i y_i")
     st.markdown(
         r"""
-The model maximizes expected contribution:
+$y_i$ is 1 when market $i$ is entered. $x_i$ is the spend in that market.
 
-\[
-\max \sum_i (r_i x_i - f_i y_i)
-\]
-
-subject to a budget, a maximum number of markets, a risk limit, and a spend range if a market is entered. \(y_i\) is 1 when market \(i\) is entered. \(x_i\) is the spend in that market.
-
-\(r_i\) is an assumed contribution per dollar. It rises with the Statista growth rate and falls as the competition index rises. Market size does not multiply the rate. It only sets how much can be spent. The 18% margin used in that rate is a modeling choice, not a Statista figure.
+$r_i$ is an assumed contribution per dollar. It rises with the Statista growth rate and falls as the competition index rises. Market size does not multiply the rate. It only sets how much can be spent. The 18% margin used in that rate is a modeling choice, not a Statista figure.
 """
     )
 
